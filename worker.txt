@@ -1,0 +1,10 @@
+Petro,1997-01-07,Junior,1200
+Ivan,1998-10-17,Trainee,850
+Alex,2000-01-12,Trainee,800
+Iryna,1993-08-27,Middle,2800
+Maryna,2003-11-11,Junior,1000
+Ander,2002-12-17,Senior,4800
+Oleg,1996-05-05,Middle,2400
+Olga,1995-06-06,Junior,1100
+Yriy,1998-02-25,Middle,2500
+Dmytro,1997-02-07,Senior,5100
