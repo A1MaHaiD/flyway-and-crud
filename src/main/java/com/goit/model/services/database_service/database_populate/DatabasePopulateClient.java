@@ -25,7 +25,7 @@ public class DatabasePopulateClient {
                     "INSERT INTO client (id, name) VALUES (?, ?)"
             );
             for (Client client : clientList) {
-                preparedStatement.setInt(1,client.getId());
+                preparedStatement.setLong(1,client.getId());
                 preparedStatement.setString(2,client.getName());
                 preparedStatement.executeUpdate();
             }

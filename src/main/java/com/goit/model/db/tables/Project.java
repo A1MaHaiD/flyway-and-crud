@@ -1,23 +1,16 @@
 package com.goit.model.db.tables;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.sql.Date;
 
 
 @Getter
 @Setter
-@AllArgsConstructor
+@RequiredArgsConstructor
 @ToString
 public class Project {
-    int clientId;
+    long clientId;
     Date startDate;
     Date finishDate;
-
-    public Project() {
-
-    }
 }

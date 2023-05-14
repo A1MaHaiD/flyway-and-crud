@@ -6,9 +6,9 @@ import com.goit.model.services.database_service.database_populate.DatabasePopula
 import com.goit.model.services.database_service.database_populate.DatabasePopulateWorker;
 
 public class DatabasePopulateService {
-    private static final String MYH2_URL = "jdbc:h2:~/test";
+   /* private static final String MYH2_URL = "jdbc:h2:~/test";
     private static final String USERNAME = "admin";
-    private static final String PASSWORD = "12345";
+    private static final String PASSWORD = "12345";*/
     public static void main(String[] args) {
         DatabasePopulateWorker databasePopulateWorker = new DatabasePopulateWorker();
         databasePopulateWorker.workerInsert();

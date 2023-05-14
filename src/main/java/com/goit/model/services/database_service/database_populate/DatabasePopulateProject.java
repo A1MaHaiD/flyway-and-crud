@@ -27,7 +27,7 @@ public class DatabasePopulateProject {
                     "INSERT INTO project (client_id, start_date, finish_date) VALUES (?, ?, ?)"
             );
             for (Project project : projectList) {
-                preparedStatement.setInt(1, project.getClientId());
+                preparedStatement.setLong(1, project.getClientId());
                 preparedStatement.setDate(2, project.getStartDate());
                 preparedStatement.setDate(3, project.getFinishDate());
                 preparedStatement.executeUpdate();

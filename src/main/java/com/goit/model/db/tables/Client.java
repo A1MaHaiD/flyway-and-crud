@@ -1,19 +1,13 @@
 package com.goit.model.db.tables;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
+@AllArgsConstructor(staticName = "of")
+@RequiredArgsConstructor
 @ToString
 public class Client {
-    int id;
+    long id;
     String name;
-
-    public Client() {
-
-    }
 }
